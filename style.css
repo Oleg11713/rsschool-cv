@@ -1,0 +1,284 @@
+body{
+    background-color:#afb0b4;
+}
+
+.main{
+    width: 700px;
+    height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background-color:#afb0b4;
+}
+
+.left{
+    width: 43%;
+    height: 970px;
+    background-color: #292d36;
+    float: left;
+}
+
+.right{
+    width: 57%;
+    height: 970px;
+    float: right; 
+    background-color: white;
+}
+
+.left .name{
+    background-color: #e0bba0;
+    height: 55px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center
+}
+
+.right .surname{
+    background-color: #e0bba0;
+    height: 55px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center
+}
+
+.left .name h1{
+    margin-left: 165px;
+    font-size: 38px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.right .surname h1{
+    margin-left: 20px;
+    font-size: 38px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.picture {
+    margin-top: -45%;
+    margin-left: 20px;
+    clip-path: polygon(50% 0%, 83% 12%, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);
+}
+
+.education h2{
+    margin: 0 8px;
+    font-size: 26px;
+    color: #fe7121;
+}
+
+.education h3{
+    margin: 5px 0;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.education h4{
+    margin: 0;
+    font-family:sans-serif;
+}
+
+.education h5{
+    margin: 5px 0;
+    font-size: 14px;
+    font-family:sans-serif;
+}
+
+.education{
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #afb0b4;
+}
+
+.button_education{
+    align-items: center;
+    margin: 0 -4px;
+    display: flex;
+    justify-content: start;
+}
+
+.list{
+    padding: 0;
+    font-size: 16px;
+    font-family:sans-serif ;
+}
+
+.list li{
+    display: flex;
+    justify-content: start;
+}
+
+.skill11{
+    margin-left: 135px;
+}
+
+.skill12{
+    margin-left: 91px;
+}
+
+.skill13{
+    margin-left: 79px;
+}
+
+.skill14{
+    margin-left: 113px;
+}
+
+.skill21{
+    margin-left: 93.5px;
+}
+
+.skill22{
+    margin-left: 100px;
+}
+
+.skill23{
+    margin-left: 74px;
+}
+
+.skill24{
+    margin-left: 88px;
+}
+
+.skill25{
+    margin-left: 56px;
+}
+
+.dot1{
+    height: 12px;
+    width: 12px;
+    background-color: #fe7121;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot2{
+    height: 12px;
+    width: 12px;
+    background-color: #afb0b4;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.right_block{
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #393f50;
+}
+
+.right_block h2{
+    margin: 0 8px;
+    font-size: 26px;
+    color: #e0bba0;
+}
+
+.right_block h3{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+}
+
+.right_block .logos .logoWrestl{
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    clip-path: circle(50% at 50% 50%);
+}
+
+.right_block .logos .logoFootb{
+    margin-left: 50px;
+    width: 60px;
+    height: 60px;
+    clip-path: circle(50% at 50% 50%);
+}
+
+.right_block .logos .logoMusic{
+    margin-left: 50px;
+    width: 60px;
+    height: 60px;
+    clip-path: circle(50% at 50% 50%);
+}
+
+.right_block .logos1floor .logoInst{
+    margin-left: 40px;
+    margin-top: 10px;
+    width: 60px;
+    height: 60px;
+    clip-path: circle(50% at 50% 50%);
+}
+
+.right_block .logos1floor .logoVk{
+    margin-left: 35px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    width: 50px;
+    height: 50px;
+    clip-path: circle(50% at 50% 50%);
+}
+
+.right_block .logos1floor .logoTg{
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 3px;
+    width: 55px;
+    height: 55px;
+    clip-path: circle(50% at 50% 50%);
+}
+
+.right_block .logos2floor .logoMail{
+    margin-left: 90px;
+    margin-top: 10px;
+    width: 55px;
+    height: 55px;
+    clip-path: circle(50% at 50% 50%);
+}
+
+.right_block .logos2floor .logoDiscord{
+    margin-left: 40px;
+    margin-top: 10px;
+    width: 55px;
+    height: 55px;
+    clip-path: circle(50% at 50% 50%);
+}
+
+.right .footer_right{
+    background-color:#708090;
+    height: 75px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center
+}
+
+.left .footer_left{
+    background-color:#708090;
+    height: 75px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center
+}
+
+.right .github{
+    width: 50px;
+    height: 50px;
+    margin-left: 170px;
+}
+
+.left .rss{
+    width: 90px;
+    height: 50px;
+    margin-left: 30px;
+}
+
+.right .footer_right h2{
+    font-size: 20px;
+    margin-top: 50px; 
+}
+
+.left .footer_left h2{
+    margin-left: 139.5px;
+    font-size: 20px;
+    margin-top: 50px;
+}
